@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Quel est le nom de la balise utilisée pour créer un lien hypertexte en HTML?",
+        "answers": [
+            {
+                "res_a": "a",
+                "res_b": "link",
+                "res_c": "href"
+            }
+        ],
+        "correctAnswers": "res_a"
+    }
+]

@@ -1,0 +1,390 @@
+[
+    {
+        "question": "Quel est le nom de la balise utilisée pour créer un lien hypertexte en HTML?",
+        "answers": [
+            {
+                "res_a": "a",
+                "res_b": "link",
+                "res_c": "href"
+            }
+        ],
+        "correctAnswers": "res_a"
+    },
+    {
+        "question": "Quel est le nom de la propriété CSS utilisée pour changer la couleur du texte?",
+        "answers": [
+            {
+                "res_a": "color",
+                "result": true
+            },
+            {
+                "res_b": "font-color",
+                "result": false
+            },
+            {
+                "res_c": "text-color",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quel est le nom de la méthode JavaScript utilisée pour afficher un message dans une boîte de dialogue?",
+        "answers": [
+            {
+                "res_a": "alert()",
+                "result": true
+            },
+            {
+                "res_b": "dialog()",
+                "result": false
+            },
+            {
+                "res_c": "popup()",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quel est le nom de la balise HTML utilisée pour créer un paragraphe?",
+        "answers": [
+            {
+                "res_a": "p",
+                "result": true
+            },
+            {
+                "res_b": "para",
+                "result": false
+            },
+            {
+                "res_c": "paragraph",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour changer la taille de police?",
+        "answers": [
+            {
+                "res_a": "font-size",
+                "result": true
+            },
+            {
+                "res_b": "text-size",
+                "result": false
+            },
+            {
+                "res_c": "size",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quel est le nom de l'événement JavaScript utilisé pour détecter un clic de souris?",
+        "answers": [
+            {
+                "res_a": "onclick",
+                "result": true
+            },
+            {
+                "res_b": "click",
+                "result": false
+            },
+            {
+                "res_c": "mouseclick",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quel est le nom de la balise HTML utilisée pour créer une image?",
+        "answers": [
+            {
+                "res_a": "img",
+                "result": true
+            },
+            {
+                "res_b": "image",
+                "result": false
+            },
+            {
+                "res_c": "url",
+                "result": false
+            },
+            {
+                "res_d": "a",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quel langage est dit dynamique ?",
+        "answers": [
+            {
+                "res_a": "CSS",
+                "result": false
+            },
+            {
+                "res_b": "XHTML",
+                "result": false
+            },
+            {
+                "res_c": "PHP",
+                "result": true
+            }
+        ]
+    },
+    {
+        "question": "De quelle manière ne peut-on pas intégrer des feuilles de style CSS ?",
+        "answers": [
+            {
+                "res_a": "En externe",
+                "result": true
+            },
+            {
+                "res_b": "En interne",
+                "result": true
+            },
+            {
+                "res_c": "En exportant",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Le HTML a été inventé",
+        "answers": [
+            {
+                "res_a": "au CERN dans les années 90",
+                "result": true
+            },
+            {
+                "res_b": "par DARPA dans les années 80",
+                "result": true
+            },
+            {
+                "res_c": "par IBM dans les années 70",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quelle est la façon recommandée de centrer un bloc horizontalement ?",
+        "answers": [
+            {
+                "res_a": "Position : center;",
+                "result": false
+            },
+            {
+                "res_b": "Margin-left : auto; margin-right: auto;",
+                "result": true
+            },
+            {
+                "res_c": "l'attribu align = center",
+                "result": false
+            },
+            {
+                "res_d": "la balise <center>",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quelle valeur de la propriété position fait sortir l'élément du flux du document ?",
+        "answers": [
+            {
+                "res_a": "Absolute",
+                "result": true
+            },
+            {
+                "res_b": "Relative",
+                "result": false
+            },
+            {
+                "res_c": "Display",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quelle propriété utilise-t-on pour stopper un flottement ?",
+        "answers": [
+            {
+                "res_a": "Clear",
+                "result": true
+            },
+            {
+                "res_b": "Stop-float",
+                "result": false
+            },
+            {
+                "res_c": "N-float",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Qu'utilise-t-on pour ouvrir et fermer des commentaires en css ?",
+        "answers": [
+            {
+                "res_a": "< ! -- -->",
+                "result": true
+            },
+            {
+                "res_b": "/* */",
+                "result": false
+            },
+            {
+                "res_c": "//",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Quelle déclaration Css enlève le soulignement des liens ?",
+        "answers": [
+            {
+                "res_a": "Text-decoration : underline;",
+                "result": false
+            },
+            {
+                "res_b": "Text-decoration : no-color;",
+                "result": false
+            },
+            {
+                "res_c": "Text-decoration : none;",
+                "result": true
+            }
+        ]
+    },
+    {
+        "question": "Pourquoi devriez-vous ajouter un texte alternatif à vos images?",
+        "answers": [
+            {
+                "res_a": "Dans le cas où l'utilisateur souhaite charger une image différente",
+                "result": false
+            },
+            {
+                "res_b": "Ainsi, les utilisateurs peuvent avoir une idée de ce qu'est l'image avant de la charger",
+                "result": true
+            },
+            {
+                "res_c": "Ainsi, l'utilisateur peut enregistrer l'image en utilisant le texte comme un nom",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Comment afficher les liens hypertexte sans souligné?",
+        "answers": [
+            {
+                "res_a": "a {underline:none}",
+                "result": false
+            },
+            {
+                "res_b": "a {text-decoration:no underline}",
+                "result": false
+            },
+            {
+                "res_c": "a {text-decoration:none}",
+                "result": true
+            }
+        ]
+    },
+    {
+        "question": "Qu'est-ce qu'un doctype ?",
+        "answers": [
+            {
+                "res_a": "Un document type",
+                "result": true
+            },
+            {
+                "res_b": "Déclarer le type de document aux normes du W3C",
+                "result": false
+            },
+            {
+                "res_c": "Permet de déclarer le type d'affichage du CSS utilisé",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "< caption > est utile pour",
+        "answers": [
+            {
+                "res_a": "Le titre d'un objet générique",
+                "result": false
+            },
+            {
+                "res_b": "La légende d'une image",
+                "result": false
+            },
+            {
+                "res_c": "Le titre au dessus d'un tableau",
+                "result": true
+            },
+            {
+                "res_d": "La légende d'un lien",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Laquelle des propriétés CSS suivantes définit l'ombre d'un élément de boîte?",
+        "answers": [
+            {
+                "res_a": "set-shadow",
+                "result": false
+            },
+            {
+                "res_b": "box-shadow",
+                "result": true
+            },
+            {
+                "res_c": "shadow",
+                "result": false
+            },
+            {
+                "res_d": "canvas-shadow",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Laquelle des propriétés CSS3 suivantes peut être utilisée pour permettre des sauts de ligne dans les mots?",
+        "answers": [
+            {
+                "res_a": "line-break",
+                "result": true
+            },
+            {
+                "res_b": "line-wrap",
+                "result": false
+            },
+            {
+                "res_c": "word-wrap",
+                "result": false
+            },
+            {
+                "res_d": "word-break",
+                "result": false
+            }
+        ]
+    },
+    {
+        "question": "Laquelle des propriétés CSS suivantes est utilisée pour spécifier les bordures de table dans CSS?",
+        "answers": [
+            {
+                "res_a": "table:border",
+                "result": true
+            },
+            {
+                "res_b": "table",
+                "result": false
+            },
+            {
+                "res_c": "border",
+                "result": false
+            }
+        ]
+    }
+]
