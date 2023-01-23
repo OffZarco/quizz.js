@@ -65,6 +65,18 @@ main {
         opacity: 0;
     }
 
+    & .response-message {
+        text-align: center;
+        font-size: $h2;
+        margin: 20px 0;
+    }
+
+    & .result {
+        text-align: center;
+        font-size: $h2;
+        margin: 20px 0;
+    }
+
     & label {
         width: 80%;
         padding: 25px 0;
@@ -94,4 +106,26 @@ main {
         transition: .2s;
         background-color: $content-color;
     }
+}
+
+
+#btnEnd {
+    background-color: $valide;
+    &:hover {
+        background-color: darken($valide, 10%);
+    }
+}
+#verifBtn {
+    background-color: $error;
+    &:hover {
+        background-color: darken($error, 10%);
+    }
+}
+
+
+.correct {
+    background-color: $valide;
+}
+.incorrect {
+    background-color: $error;
 }
