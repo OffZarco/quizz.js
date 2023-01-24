@@ -7,7 +7,6 @@ fetch('/data2.json')
         // On affiche de manière aléatoire
         quizz.sort(() => Math.random() - 0.5); // fonction de comparaison (math.random entre 0 et 1)
 
-
         let placeholder = document.querySelector("#quizz_page");
         let out = "";
 
@@ -18,45 +17,47 @@ fetch('/data2.json')
                 <h2>${question['question']}</h2>
                 <form class="blockQues">
 
-                    <div class="response">
+                    <div class="response" id="answer1">
                         <label id="ques_1" class="inputLabel ques_1">
                             <input name="group1" for="ques_1" type="radio"> ${question['answers'][0]['res_a']}
                         </label>
                         <h3>Réponse A</h3>
                     </div>
 
-                    <div class="response">
+                    <div class="response" id="answer2">
                         <label id="ques_2" class="inputLabel ques_2">
-                            <input name="group1" for="ques_2" type="radio"> ${question['answers'][0]['res_b']}
+                            <input name="group1" for="ques_2" type="radio"> ${question['answers'][1]['res_b']}
                         </label>
                         <h3>Réponse B</h3>
                     </div>
 
-                    <div class="response">
+                    <div class="response" id="answer3">
                         <label id="ques_3" class="inputLabel ques_3">
-                            <input name="group1" for="ques_3" type="radio"> ${question['answers'][0]['res_c']}
+                            <input name="group1" for="ques_3" type="radio"> ${question['answers'][2]['res_c']}
                         </label>
                         <h3>Réponse C</h3>
                     </div>
 
-                    <button class="checkBtn" id="verifBtn" data-correct="${question['correctAnswer']}">Vérifier</button>
+                    <div class="response" id="answer4">
+                        <label id="ques_4" class="inputLabel ques_4">
+                            <input name="group1" for="ques_4" type="radio"> ${question['answers'][3]['res_d']}
+                        </label>
+                        <h3>Réponse D</h3>
+                    </div>
 
                 </form>
             </div>
             `
+            function checkAnswer() {
+                let correctAnswer = this.getAttribute("data-correct");
+                let userAnswer = document.querySelector('input[name="group1"]:checked').value;
+                if (userAnswer === correctAnswer) {
+                    document.getElementById(correctAnswer).style.backgroundColor = "green";
+                } else {
+                    document.getElementById(userAnswer).style.backgroundColor = "red";
+                }
+            }
         }
         placeholder.innerHTML += out; // On affiche dans le html les élément de la variable out
-
-        let checkBtns = document.querySelectorAll('.checkBtn');
-        for (let btn of checkBtns) {
-            btn.addEventListener("click", function (e) {
-                let selectedOption = document.querySelector('input[name="group1"]:checked').id;
-                if (selectedOption === e.target.dataset.correct) {
-                    responseMessage.innerHTML = "Bonne réponse !";
-                } else {
-                    responseMessage.innerHTML = "Mauvaise réponse !";
-                }
-            });
-        }
     });
 

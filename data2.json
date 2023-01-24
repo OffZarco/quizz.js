@@ -2,12 +2,10 @@
     {
         "question": "Quel est le nom de la balise utilisée pour créer un lien hypertexte en HTML?",
         "answers": [
-            {
-                "res_a": "a",
-                "res_b": "link",
-                "res_c": "href"
-            }
-        ],
-        "correctAnswer": "a"
+                {"res_a": "a", "correct": true},
+                {"res_b": "link", "correct": false},
+                {"res_c": "href", "correct": false},
+                {"res_d": "class", "correct": false}
+        ]
     }
 ]
