@@ -8,31 +8,25 @@
 body {
   background-color: #30303D;
   color: #fff;
-}
-
-main {
   max-width: 70%;
   margin: auto;
 }
-main h1 {
+
+h1 {
   margin: 50px 0;
   padding: 25px;
   text-align: center;
   background-color: #285186;
 }
-main .blockQues {
+
+#quizz_page {
   border: 2px solid #fff;
   border-radius: 5px;
   margin: 30px 0px;
   padding: 25px;
 }
-main h2 {
-  background-color: #285186;
-  margin: 10px 0;
-  padding: 15px;
-  text-align: center;
-}
-main .response {
+
+.answer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,21 +34,35 @@ main .response {
   margin: 10px 0;
   border-radius: 10px;
 }
-main .response:focus-within {
+
+.answer:focus-within {
   border: solid #3aac0d;
 }
-main .response input {
-  opacity: 0;
+
+#results {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
 }
-main label {
-  width: 80%;
-  padding: 25px 0;
-  font-size: 16px;
+
+#score {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
 }
-main h3 {
-  font-size: 16px;
+
+label {
+  width: 90%;
+  padding: 10px 0;
 }
-main .checkBtn {
+
+.buttons {
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+#check {
   display: flex;
   margin: auto;
   padding: 8px 80px;
@@ -66,9 +74,32 @@ main .checkBtn {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
-  transition: 0.1s;
-}
-main .checkBtn:hover {
   transition: 0.2s;
+}
+
+#check:hover {
+  transition: 0.1s;
   background-color: #285186;
+}
+
+#btnEnd {
+  background-color: #3aac0d;
+}
+#btnEnd:hover {
+  background-color: #2a7d09;
+}
+
+#verifBtn {
+  background-color: #d10f0f;
+}
+#verifBtn:hover {
+  background-color: #a10c0c;
+}
+
+.correct {
+  background-color: #3aac0d;
+}
+
+.incorrect {
+  background-color: #d10f0f;
 }/*# sourceMappingURL=style.css.map */

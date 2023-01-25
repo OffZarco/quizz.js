@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,25 +8,26 @@
     <title>Quizz en cours...</title>
 
     <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <main>
-        <h1>Bon Quizz !</h1>
-        <section id="quizz_page"></section>
-        <div class="response-message"></div>
-        <div class="buttonEnd">
-            <button id="btnEnd" style="display:none">Terminer le Quizz</button>
-        </div>
-        
-        
-        <button class="checkBtn" id="verifBtn" onclick="checkAnswer()">Vérifier</button>
-        
-    </main>
-    
+
+
+    <section id="quizz_page"></section>
+
+    <div id="results"></div>
+    <div id="score"></div>
+
+    <div class="buttons">
+        <button id="prev-button"><i class="fa-solid fa-chevron-left"></i> Précédent</button>
+        <button id="check">Vérifier</button>
+        <button id="next-button">Suivant <i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
 
     <script src="../script.js"></script>
 </body>
-
 
 </html>

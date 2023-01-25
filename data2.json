@@ -2,10 +2,233 @@
     {
         "question": "Quel est le nom de la balise utilisée pour créer un lien hypertexte en HTML?",
         "answers": [
-                {"res_a": "a", "correct": true},
-                {"res_b": "link", "correct": false},
-                {"res_c": "href", "correct": false},
-                {"res_d": "class", "correct": false}
+            {
+                "res_a": "a",
+                "correct": true
+            },
+            {
+                "res_b": "link",
+                "correct": false
+            },
+            {
+                "res_c": "href",
+                "correct": false
+            },
+            {
+                "res_d": "class",
+                "correct": false
+            }
         ]
     }
 ]
+
+
+
+{
+    "question": "Le HTML a été inventé",
+    "answers": [
+        {
+            "res_a": "au CERN dans les années 90",
+            "result": true
+        },
+        {
+            "res_b": "par DARPA dans les années 80",
+            "result": true
+        },
+        {
+            "res_c": "par IBM dans les années 70",
+        }
+    ]
+},
+{
+    "question": "Quelle est la façon recommandée de centrer un bloc horizontalement ?",
+    "answers": [
+        {
+            "res_a": "Position : center;",
+        },
+        {
+            "res_b": "Margin-left : auto; margin-right: auto;",
+            "result": true
+        },
+        {
+            "res_c": "l'attribu align = center",
+        },
+        {
+            "res_d": "la balise <center>",
+        }
+    ]
+},
+{
+    "question": "Quelle valeur de la propriété position fait sortir l'élément du flux du document ?",
+    "answers": [
+        {
+            "res_a": "Absolute",
+            "result": true
+        },
+        {
+            "res_b": "Relative",
+        },
+        {
+            "res_c": "Display",
+        }
+    ]
+},
+{
+    "question": "Quelle propriété utilise-t-on pour stopper un flottement ?",
+    "answers": [
+        {
+            "res_a": "Clear",
+            "result": true
+        },
+        {
+            "res_b": "Stop-float",
+        },
+        {
+            "res_c": "N-float",
+        }
+    ]
+},
+{
+    "question": "Qu'utilise-t-on pour ouvrir et fermer des commentaires en css ?",
+    "answers": [
+        {
+            "res_a": "< ! -- -->",
+            "result": true
+        },
+        {
+            "res_b": "/* */",
+        },
+        {
+            "res_c": "//",
+        }
+    ]
+},
+{
+    "question": "Quelle déclaration Css enlève le soulignement des liens ?",
+    "answers": [
+        {
+            "res_a": "Text-decoration : underline;",
+        },
+        {
+            "res_b": "Text-decoration : no-color;",
+        },
+        {
+            "res_c": "Text-decoration : none;",
+            "result": true
+        }
+    ]
+},
+{
+    "question": "Pourquoi devriez-vous ajouter un texte alternatif à vos images?",
+    "answers": [
+        {
+            "res_a": "Dans le cas où l'utilisateur souhaite charger une image différente",
+        },
+        {
+            "res_b": "Ainsi, les utilisateurs peuvent avoir une idée de ce qu'est l'image avant de la charger",
+            "result": true
+        },
+        {
+            "res_c": "Ainsi, l'utilisateur peut enregistrer l'image en utilisant le texte comme un nom",
+        }
+    ]
+},
+{
+    "question": "Comment afficher les liens hypertexte sans souligné?",
+    "answers": [
+        {
+            "res_a": "a {underline:none}",
+        },
+        {
+            "res_b": "a {text-decoration:no underline}",
+        },
+        {
+            "res_c": "a {text-decoration:none}",
+            "result": true
+        }
+    ]
+},
+{
+    "question": "Qu'est-ce qu'un doctype ?",
+    "answers": [
+        {
+            "res_a": "Un document type",
+            "result": true
+        },
+        {
+            "res_b": "Déclarer le type de document aux normes du W3C",
+        },
+        {
+            "res_c": "Permet de déclarer le type d'affichage du CSS utilisé",
+        }
+    ]
+},
+{
+    "question": "< caption > est utile pour",
+    "answers": [
+        {
+            "res_a": "Le titre d'un objet générique",
+        },
+        {
+            "res_b": "La légende d'une image",
+        },
+        {
+            "res_c": "Le titre au dessus d'un tableau",
+            "result": true
+        },
+        {
+            "res_d": "La légende d'un lien",
+        }
+    ]
+},
+{
+    "question": "Laquelle des propriétés CSS suivantes définit l'ombre d'un élément de boîte?",
+    "answers": [
+        {
+            "res_a": "set-shadow",
+        },
+        {
+            "res_b": "box-shadow",
+            "result": true
+        },
+        {
+            "res_c": "shadow",
+        },
+        {
+            "res_d": "canvas-shadow",
+        }
+    ]
+},
+{
+    "question": "Laquelle des propriétés CSS3 suivantes peut être utilisée pour permettre des sauts de ligne dans les mots?",
+    "answers": [
+        {
+            "res_a": "line-break",
+            "result": true
+        },
+        {
+            "res_b": "line-wrap",
+        },
+        {
+            "res_c": "word-wrap",
+        },
+        {
+            "res_d": "word-break",
+        }
+    ]
+},
+{
+    "question": "Laquelle des propriétés CSS suivantes est utilisée pour spécifier les bordures de table dans CSS?",
+    "answers": [
+        {
+            "res_a": "table:border",
+            "result": true
+        },
+        {
+            "res_b": "table",
+        },
+        {
+            "res_c": "border",
+        }
+    ]
+}
